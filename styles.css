@@ -1,0 +1,90 @@
+#main {
+  --content-background: hsl(51, 40%, 96%);
+  --contrast-background: hsl(51, 40%, 87%);
+  font-family: sans-serif;
+  margin: 10px;
+  background-color: hsl(51, 40%, 96%);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--contrast-background, gray);
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+#h2Text {
+  text-align: center;
+  font-size: 25px;
+  margin: -5px 0 40px 0;
+  
+}
+
+#title {
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  background-color: hsl(51, 40%, 96%);
+}
+
+#main-content {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10px;
+  border: solid 100px hsl(51, 40%, 87%);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px -10px 10px -10px;
+  text-align: center;
+  background-color: hsl(51, 40%, 87%);
+  border-radius: 20px;
+}
+
+#footer-content {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+li {
+  margin-top: 10px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+time {
+  font-weight: bold;
+}
+
+#image-label {
+  text-align: center;
+  font-size: 15px;
+}
+
+#tribute-link:hover {
+  color: royalblue;
+}
+
+#tribute-link {
+  color: darkblue;
+}
